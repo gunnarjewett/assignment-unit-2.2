@@ -28,8 +28,8 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to Dane as a string.
 // We check if name is equal to Mary.
-// name is not equal to Mary, name is equal to Dange so
-// we console.log 'How do you do?');
+// name is not equal to Mary, name is equal to Dane so
+// we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,11 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called secret. and we make a variable called code and set it to 123 as a number.
+// We make a variable called secret and we make a variable called code and set code to 123 as a number.
 // We check if code is equal to 123. 123 is equal to 123 so
-// secret is equal to super and code is mutiplied by 2. Code is now 247.
-// We check if code is greater than 250. 247 is less than 250 so
-// We console.log( 'super' );
+// secret is set to super and code is mutiplied by 2. 123 * 2 is 246 so code is now 246.
+// We check if code is greater than 250. 246 is less than 250 so
+// we console.log secret.
 
 //CODE
 /*
@@ -71,11 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make a variable called isStudent and set it to true as a string, a variable called age and set it to 34 as a variable, and a variable called zip and set it to 55407 as a variable.
-// We check if isStudent equal to true, and if zip is greater than 80000. Zip is less than 80000 so
-// we check if isStudent equal to false or if age is less than 30. isStudent if equal to true, and age is greater than 30 so
-// we check if isStudent equal to true. isStudent is equal to true so
-// we console.log('Welcome to prime!');
+// We make a variable called isStudent and set it to true as a boolean, a variable called age and set it to 34 as a number, and a variable called zip and set it to 55407 as a number.
+// We check if isStudent is true and if zip is greater than 80000. Zip is less than 80000 so
+// we check if isStudent is false or if age is less than 30. isStudent is true, and age is greater than 30 so
+// we check if isStudent is true. isStudent is true so
+// we console.log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -133,14 +133,14 @@ if (number >= 2) {
 
 /*
 // FIX - colorOne and colorTwo have the incorrect values.
-// Should be colorOne = 'blue'; colorTwo = 'red';
+// Should be let colorOne = 'blue'; let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-// FIX - colorTwo should also now be equal to purple.
+// FIX - colorTwo should also be set to purple.
 // should add colorTwo = 'purple';
 
 }
@@ -151,8 +151,8 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-// FIX const is used incorrectly time will not able to be reassigned. This means we will not be able to change the value of time, something we may wish to do with our script in the future.
-// Should be let time = 4;
+// FIX const is used incorrectly as time will not able to be reassigned. This means we will not be able to run the script with a new time in the future, something we may wish to do.
+// should be let time = 4;
 let temp = 40;
 const time = 4;
 
@@ -171,7 +171,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX the conditional is written in the incorrect order.
+// FIX the conditional written in the incorrect order.
 // Should be if(age >= minAge) {
 //    console.log('enter');
 // } else {
